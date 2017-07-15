@@ -39,13 +39,13 @@ while($row = mysqli_fetch_assoc($result)){
           <textarea id="description" name="description" rows="8" cols="80"></textarea>
         </p>
         <p>
-          <input type="submit" value="Send">
+          <input type="submit" value="Post">
         </p>
       </form>
     </article>
-    <input type="button" name="name" value="White" onclick="document.getElementById('body').className='white'">
-    <input type="button" name="name" value="Black" onclick="document.getElementById('body').className='black'">
+
     <input type="button" name="name" value="Write" onclick="location.href='write.php'">
+    <input type="button" name="delete" value="Home Page" onclick="location.href='index.php'">
 
   </div>
   </body>
