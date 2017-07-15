@@ -1,0 +1,32 @@
+header{
+  border-bottom: 5px solid yellowgreen;
+  padding: 30px;
+  text-align: center;
+}
+body{
+  margin: 0;
+}
+body.black{
+  background-color: black;
+  color: white;
+}
+body.white{
+  background-color: white;
+}
+nav{
+  border-right: 3px solid yellowgreen;
+  width: 200px;
+  height: 400px;
+  float: left;
+}
+nav ol{
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+}
+#content{
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+  width: 400px;
+}
