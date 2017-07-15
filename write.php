@@ -46,7 +46,7 @@ while($row = mysqli_fetch_assoc($result)){
     <input type="button" name="name" value="White" onclick="document.getElementById('body').className='white'">
     <input type="button" name="name" value="Black" onclick="document.getElementById('body').className='black'">
     <input type="button" name="name" value="Write" onclick="location.href='write.php'">
-    <input type="button" name="name" value="Delete" onclick="location.href='delete.php'">
+
   </div>
   </body>
 </html>
